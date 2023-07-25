@@ -21,40 +21,108 @@
     <header class="header">
       <div class="container">
         <div class="top_header">
-          <ul>
+          <ul class="nav">
             <li>
-              <a href="#"><img src="" alt="" />Te llamamos gratis</a>
+              <a href="#"
+                ><img src="images/telefono.png" alt="" />Te llamamos gratis</a
+              >
             </li>
             <li>
-              <a href="#"><img src="" alt="" />Mi cuenta - Salir</a>
+              <a href="#"
+                ><img src="images/user_icon.svg" class="user_icon" alt="" />Mi
+                cuenta - Salir</a
+              >
             </li>
           </ul>
         </div>
         <div class="header_bottom">
           <div class="logo">
-            <img src="/images/logo.png" alt="logo" />
+            <img src="images/logo.png" alt="logo" />
           </div>
           <div class="navigation_wrap">
             <div class="nav_wrap">
-              <ul>
+              <ul class="nav">
                 <li>
                   <a href="#">Inicio</a>
                 </li>
                 <li>
-                  <a href="#">Tienda</a>
+                  <a href="#"
+                    >Tienda
+                    <span>
+                      <img
+                        src="images/down-arrow.svg"
+                        class="down_arrow"
+                        alt=""
+                      />
+                    </span>
+                  </a>
                 </li>
                 <li>
-                  <a href="#">BBDD destacadas</a>
+                  <a href="#"
+                    >BBDD destacadas
+                    <span>
+                      <img
+                        src="images/down-arrow.svg"
+                        class="down_arrow"
+                        alt=""
+                      />
+                    </span>
+                  </a>
                 </li>
                 <li>
-                  <a href="#">Servicios</a>
+                  <a href="#"
+                    >Servicios
+                    <span>
+                      <img
+                        src="images/down-arrow.svg"
+                        class="down_arrow"
+                        alt=""
+                      />
+                    </span>
+                  </a>
                 </li>
                 <li>
-                  <a href="#">Nosotros</a>
+                  <a href="#"
+                    >Nosotros
+                    <span>
+                      <img
+                        src="images/down-arrow.svg"
+                        class="down_arrow"
+                        alt=""
+                      />
+                    </span>
+                  </a>
                 </li>
                 <li>Blog</li>
               </ul>
             </div>
+          </div>
+          <div class="cart_search_wrap">
+            <ul class="nav align-center">
+              <li>
+                <button type="button" class="search_btn">
+                  <img
+                    src="images/search_icon.svg"
+                    class="search_icon"
+                    alt="search_icon"
+                  />
+                </button>
+              </li>
+              <li>
+                <div class="cart_show">
+                  <span>
+                    <img src="images/cart_icon.svg" alt="" />
+                  </span>
+                  <div class="cart_data">
+                    <h5 class="cart_title">
+                      Cesta
+                      <span class="cart_value">3</span>
+                    </h5>
+                    <p>Ver artículos</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -70,29 +138,30 @@
               <select>
                 <option>PROVINCIAS</option>
               </select>
-              <img src="/images/down-arrow.svg" alt="" />
+              <img src="images/down-arrow.svg" class="down_arrow" alt="" />
             </div>
             <div class="filer_box">
               <select>
                 <option>CATEGORÍAS</option>
               </select>
-              <img src="/images/down-arrow.svg" alt="" />
+              <img src="images/down-arrow.svg" class="down_arrow" alt="" />
             </div>
             <div class="filer_box">
               <select>
                 <option>CALIDAD</option>
               </select>
-              <img src="/images/down-arrow.svg" alt="" />
+              <img src="images/down-arrow.svg" class="down_arrow" alt="" />
             </div>
             <div class="filer_box">
               <select>
                 <option>EXTRAS</option>
               </select>
-              <img src="/images/down-arrow.svg" alt="" />
+              <img src="images/down-arrow.svg" class="down_arrow" alt="" />
             </div>
-            <div class="filer_box btn_wrap">
-              <button type="button" class=" button">
-                FILTRAR <img src="/images/down-arrow.svg" alt="" />
+            <div class="btn_wrap filter_btn">
+              <button type="button" class="button">
+                FILTRAR
+                <img class="search_icon" src="images/search_icon.svg" alt="" />
               </button>
             </div>
           </div>
@@ -117,7 +186,8 @@
           </p>
           <div class="btn_wrap">
             <button type="button" class="button">
-              LEER MÁS <img src="/images/down-arrow.svg" alt="" />
+              LEER MÁS
+              <img src="images/down-arrow.svg" class="down_arrow" alt="" />
             </button>
           </div>
         </div>
@@ -155,9 +225,7 @@
           <div class="col-md-3 col-sm-12">
             <div class="box_wrap">
               <h2 class="heading-2">
-                <span
-               >BUEN PRECIO</span
-                >
+                <span>BUEN PRECIO</span>
               </h2>
               <p>
                 Sistema de descuento por volumen de compras y<strong>
@@ -169,9 +237,7 @@
           <div class="col-md-3 col-sm-12">
             <div class="box_wrap">
               <h2 class="heading-2">
-                 <span
-               >FACILIDAD</span
-                >
+                <span>FACILIDAD</span>
               </h2>
               <p>
                 No tiene que<strong> descargar la base de datos</strong> ya que
@@ -204,42 +270,253 @@
     </section>
     <section class="product_wrap">
       <div class="container">
-        <div class="col-md-4 col-sm-12">
-          <div class="product_box">
-            <div class="product_header">
-              <div class="product_title">
-                <h2 class="heading-2">Aceite de oliva</h2>
-                <p>BRK0203</p>
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
+            <div class="product_box">
+              <div class="product_header">
+                <div class="product_title">
+                  <h2 class="heading-2">Aceite de oliva</h2>
+                  <p>BRK0203</p>
+                </div>
+                <div class="product_price">
+                  <span class="heading-2">15€</span>
+                  <button class="product_cart">
+                    <img src="images/cart_icon.svg" alt="" />
+                    <span class="plus_product"
+                      ><img src="images/pluse_icon.svg" alt=""
+                    /></span>
+                  </button>
+                </div>
               </div>
-              <div class="product_price">
-                <span class="heading-2">15€</span>
-                <button class="product_cart">
-                  <img src="images/cart_icon.svg" alt="" />
-                  <span class="plus_product"
-                    ><img src="images/pluse_icon.svg" alt=""
-                  /></span>
-                </button>
+              <div class="product_data_wrap">
+                <div class="product_data">
+                  <div class="product_image">
+                    <img src="images/product_image1.png" alt="" />
+                  </div>
+                  <div class="product_descrption">
+                    <h5 class="sub_title">AGRICULTURA Y GANADERÍA</h5>
+                    <p>Listado de Aceite de oliva en España</p>
+                  </div>
+                </div>
+                <div class="conteos">
+                  Conteos <img src="images/pluse_icon.svg" alt="" />
+                </div>
+                <div class="product_order">
+                  <p>Muestra <img src="images/muestra.svg" alt="" /></p>
+                  <div class="btn_wrap">
+                    <button class="button" type="button">
+                      VER FICHA COMPLETA
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="product_data_wrap">
-              <div class="product_data">
-                <div class="product_image">
-                  <img src="images/product_image1.png" alt="" />
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <div class="product_box">
+              <div class="product_header">
+                <div class="product_title">
+                  <h2 class="heading-2">Empresas de abastecimiento de aguas</h2>
                 </div>
-                <div class="product_descrption">
-                  <h5 class="sub_title">AGRICULTURA Y GANADERÍA</h5>
-                  <p>Listado de Aceite de oliva en España</p>
-                </div>
-              </div>
-              <div class="conteos">
-                Conteos <img src="images/pluse_icon.svg" alt="" />
-              </div>
-              <div class="product_order">
-                <p>Muestra</p>
-                <div class="btn_wrap">
-                  <button class="button" type="button">
-                    VER FICHA COMPLETA
+                <div class="product_price">
+                  <span class="heading-2">17€</span>
+                  <button class="product_cart">
+                    <img src="images/cart_icon.svg" alt="" />
+                    <span class="plus_product"
+                      ><img src="images/pluse_icon.svg" alt=""
+                    /></span>
                   </button>
+                </div>
+              </div>
+              <div class="product_data_wrap">
+                <div class="product_data">
+                  <div class="product_image">
+                    <img src="images/product_image2.png" alt="" />
+                  </div>
+                  <div class="product_descrption">
+                    <h5 class="sub_title">AGRICULTURA Y GANADERÍA</h5>
+                    <p>
+                      Listado de Empresas de abastecimiento de aguas en España
+                    </p>
+                  </div>
+                </div>
+                <div class="conteos">
+                  Conteos <img src="images/pluse_icon.svg" alt="" />
+                </div>
+                <div class="product_order">
+                  <p>Muestra <img src="images/muestra.svg" alt="" /></p>
+                  <div class="btn_wrap">
+                    <button class="button" type="button">
+                      VER FICHA COMPLETA
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <div class="product_box">
+              <div class="product_header">
+                <div class="product_title">
+                  <h2 class="heading-2">Empresas de alimentación animal</h2>
+                  <p>BRK0221</p>
+                </div>
+                <div class="product_price">
+                  <span class="heading-2">31€</span>
+                  <button class="product_cart">
+                    <img src="images/cart_icon.svg" alt="" />
+                    <span class="plus_product"
+                      ><img src="images/pluse_icon.svg" alt=""
+                    /></span>
+                  </button>
+                </div>
+              </div>
+              <div class="product_data_wrap">
+                <div class="product_data">
+                  <div class="product_image">
+                    <img src="images/product_image3.png" alt="" />
+                  </div>
+                  <div class="product_descrption">
+                    <h5 class="sub_title">ANIMALES</h5>
+                    <p>Listado de Empresas de alimentación animal</p>
+                  </div>
+                </div>
+                <div class="conteos">
+                  Conteos <img src="images/pluse_icon.svg" alt="" />
+                </div>
+                <div class="product_order">
+                  <p>Muestra <img src="images/muestra.svg" alt="" /></p>
+                  <div class="btn_wrap">
+                    <button class="button" type="button">
+                      VER FICHA COMPLETA
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <div class="product_box">
+              <div class="product_header">
+                <div class="product_title">
+                  <h2 class="heading-2">Museos</h2>
+                  <p>BRK0239</p>
+                </div>
+                <div class="product_price">
+                  <span class="heading-2">15€</span>
+                  <button class="product_cart">
+                    <img src="images/cart_icon.svg" alt="" />
+                    <span class="plus_product"
+                      ><img src="images/pluse_icon.svg" alt=""
+                    /></span>
+                  </button>
+                </div>
+              </div>
+              <div class="product_data_wrap">
+                <div class="product_data">
+                  <div class="product_image">
+                    <img src="images/product_image4.png" alt="" />
+                  </div>
+                  <div class="product_descrption">
+                    <h5 class="sub_title">ARTE Y CULTURA</h5>
+                    <p>Listado de Museos en España</p>
+                  </div>
+                </div>
+                <div class="conteos">
+                  Conteos <img src="images/pluse_icon.svg" alt="" />
+                </div>
+                <div class="product_order">
+                  <p>Muestra <img src="images/muestra.svg" alt="" /></p>
+                  <div class="btn_wrap">
+                    <button class="button" type="button">
+                      VER FICHA COMPLETA
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <div class="product_box">
+              <div class="product_header">
+                <div class="product_title">
+                  <h2 class="heading-2">Compra venta de coches nuevos</h2>
+                  <p>BRK0249</p>
+                </div>
+                <div class="product_price">
+                  <span class="heading-2">109€</span>
+                  <button class="product_cart">
+                    <img src="images/cart_icon.svg" alt="" />
+                    <span class="plus_product"
+                      ><img src="images/pluse_icon.svg" alt=""
+                    /></span>
+                  </button>
+                </div>
+              </div>
+              <div class="product_data_wrap">
+                <div class="product_data">
+                  <div class="product_image">
+                    <img src="images/product_image5.png" alt="" />
+                  </div>
+                  <div class="product_descrption">
+                    <h5 class="sub_title">AUTOMOCIÓN</h5>
+                    <p>Listado de Compra venta de coches nuevos en España</p>
+                  </div>
+                </div>
+                <div class="conteos">
+                  Conteos <img src="images/pluse_icon.svg" alt="" />
+                </div>
+                <div class="product_order">
+                  <p>Muestra <img src="images/muestra.svg" alt="" /></p>
+                  <div class="btn_wrap">
+                    <button class="button" type="button">
+                      VER FICHA COMPLETA
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <div class="product_box">
+              <div class="product_header">
+                <div class="product_title">
+                  <h2 class="heading-2">Empresas de lunas</h2>
+                  <p>BRK0221</p>
+                </div>
+                <div class="product_price">
+                  <span class="heading-2">29€</span>
+                  <button class="product_cart">
+                    <img src="images/cart_icon.svg" alt="" />
+                    <span class="plus_product"
+                      ><img src="images/pluse_icon.svg" alt=""
+                    /></span>
+                  </button>
+                </div>
+              </div>
+              <div class="product_data_wrap">
+                <div class="product_data">
+                  <div class="product_image">
+                    <img src="images/product_image6.png" alt="" />
+                  </div>
+                  <div class="product_descrption">
+                    <!-- <h5 class="sub_title">ANIMALES</h5> -->
+                    <p>
+                      2891 Empresas. 2383 Emails. 1124 Emails únicos. 2890
+                      Teléfonos. 2889 Direcciones.
+                    </p>
+                  </div>
+                </div>
+                <div class="conteos">
+                  Conteos <img src="images/pluse_icon.svg" alt="" />
+                </div>
+                <div class="product_order">
+                  <p>Muestra <img src="images/muestra.svg" alt="" /></p>
+                  <div class="btn_wrap">
+                    <button class="button" type="button">
+                      VER FICHA COMPLETA
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -262,7 +539,7 @@
                 datos de un importe menor a 200 €.
               </p>
               <h4 class="contact_title">CONTACTO</h4>
-             <a href="tel:(+34) 954-06-29-15">(+34) 954-06-29-15</a>
+              <a href="tel:(+34) 954-06-29-15">(+34) 954-06-29-15</a>
               <p><a href="tel:(+34) 647-76-53-84">(+34) 647-76-53-84</a></p>
               <p lang="email"><a href="#">info@brekiadata.com</a></p>
             </div>
@@ -349,9 +626,9 @@
                   <li>
                     <a href="#"><img src="images/visa.png" alt="" /></a>
                   </li>
-                  <!-- <li>
-                    <a href="#"><img src="images/monstrade.png" alt="" /></a>
-                  </li> -->
+                  <li>
+                    <a href="#"><img src="images/mastercard.png" alt="" /></a>
+                  </li>
                   <li>
                     <a href="#"><img src="images/paypal.png" alt="" /></a>
                   </li>
