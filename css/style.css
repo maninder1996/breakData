@@ -118,6 +118,12 @@ ul{
     color: #fff;
     padding: 80px 0 50px;
 }
+.limpair_filter {
+    text-align: right;
+    font-size: 12px;
+    margin-bottom: 5px;
+    font-weight: 300;
+}
 .hero_section .heading span{
     width: 100%;
     font-weight: 400;
@@ -189,7 +195,7 @@ ul{
     padding: 10px 10px 7px;
 }
 .filer_box select {
-    width: 200px;
+    width:100%;
     background-color: #16569d;
     border-color: #16569d;
     color: #fff;
@@ -214,7 +220,14 @@ ul{
 .destacadas_bases .btn_wrap {
     text-align: right;
 }
-
+.four_box .box_wrap .heading-2 {
+    display: flex;
+    align-items: center;
+}
+.check_icon_circle {
+    width: 30px;
+    margin: -4px 10px 0 0px;
+}
 /****product********/
 .product_order {
     display: flex;
@@ -227,7 +240,7 @@ ul{
     overflow: hidden;
     height: 100%;
 }
-.product_wrap .col-md-4.col-sm-12 {
+.product_wrap .col-sm-12 {
     margin-bottom: 30px;
 }
 .conteos {
@@ -269,6 +282,9 @@ ul{
 }
 .product_data .product_image img {
     width: 100%;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
 }
 .product_descrption .sub_title {
     font-size: 13px;
@@ -374,4 +390,78 @@ ul{
 .copyright_text {
     margin: 0;
     font-weight: 300;
+}
+
+@media(max-width:1024px){
+    .filter_main_wrap {
+        flex-wrap: wrap;
+    }
+    .filer_box {
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width:767px){
+    .filter_btn.btn_wrap .button {
+        width: 100%;
+        
+    }
+    .btn_wrap.filter_btn {
+        width: 100%;
+    }
+    .filer_box {
+        padding-right: 10px;
+        width: 50%;
+    }
+    .filer_box:nth-child(2n) { 
+        padding-right:0px;
+    }
+    .filer_box select {
+        padding: 10px 30px 5px 5px;
+    }
+    .heading {
+        font-size:30px;
+    }
+    body {
+        font-size: 15px;
+    }
+    .hero_section .btn_wrap .button {
+        width: 100%;
+        max-width: 100%;
+    }
+    .heading-2 {
+        font-size: 20px;
+    }
+    .check_icon_circle {
+        width: 25px;
+    }
+    .four_box .box_wrap {
+        margin-bottom: 30px;
+    }
+    .destacadas_bases p {
+        width: 100%;
+    }
+    .product_header .product_cart img {
+        width: 50px;
+    }
+    .product_wrap {
+        margin: 50px 0  50px;
+    }
+    .hero_section {
+        padding: 50px 0 50px;
+    }
+    .copyright_text {
+        text-align: center;
+    }
+    .payment_method ul {
+        justify-content: center;
+        margin: 10px 0 0px;
+    }
+    .top_header .nav {
+        justify-content: center;
+    }
+    .filer_box .down_arrow {
+        right: 20px;
+        
+    }
 }
