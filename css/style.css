@@ -253,6 +253,17 @@ li.childlink.open ul.child-link {
     font-weight: 300;
     display: flex;
     align-items: center;
+    border: solid 1px transparent;
+    font-weight: 300;
+    transition: 0.5s;
+}
+.hero_section .btn_wrap .button:hover {
+    color: #fff;
+}
+.btn_wrap .button:hover{
+    color: #1d1d1d;
+    background-color: transparent;
+    border-color: #ef5927;
 }
 
 .hero_section {
@@ -278,6 +289,9 @@ li.childlink.open ul.child-link {
     width: 250px;
     justify-content: center;
     max-width: 100%;
+}
+.filter_btn.btn_wrap .button:hover{
+    color: #fff;
 }
 .filter_main_wrap {
     display: flex;
@@ -349,13 +363,7 @@ li.childlink.open ul.child-link {
 .hero_section .heading{
     font-weight:700;
 }
-.btn_wrap .button {
-    background-color: #ef5927;
-    border: none;
-    padding: 10px 20px 5px;
-    color: #fff;
-    font-weight: 300;
-}
+
 .destacadas_bases p{
     width:75%;
 }
@@ -387,6 +395,11 @@ li.childlink.open ul.child-link {
     box-shadow: 0 0 1px #000;
     overflow: hidden;
     height: 100%;
+    transition: 0.5s;
+}
+.product_box:hover {
+    box-shadow: 0 0 10px -2px rgb(0 0 0 / 30%);
+    transform: scale(1.04);
 }
 .product_wrap .col-sm-12 {
     margin-bottom: 30px;
@@ -539,12 +552,18 @@ li.childlink.open ul.child-link {
     margin: 0;
     font-weight: 300;
 }
+.footer_box li a:hover {
+    color: #ef5927;
+}
 /***review******/
 .review_innerr .heading-2 {
     text-transform: uppercase;
 }
 .review_raing{
-    display: flex;
+    text-align: center;
+}
+.review_raing a{
+    display:inline-flex;
     align-items: center;
     justify-content: center;
     margin:40px 0 0;
@@ -748,6 +767,7 @@ li.childlink.open ul.child-link {
         width: 100%;
         max-width: 100%;
     }
+    
     .heading-2 {
         font-size: 20px;
     }
