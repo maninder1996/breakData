@@ -803,4 +803,7 @@ li.childlink.open ul.child-link {
         right: 20px;
         
     }
+    .fullimage {
+        width: 100%;
+    }
 }

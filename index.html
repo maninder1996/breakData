@@ -1502,6 +1502,12 @@
           $(".grandchild").hide();
           $("#grand-child-" + data_id).show();
         });
+
+//Product-title change
+        $(".conteos").click(function () {
+          $(this).parent().siblings().removeClass("title_change_product");
+          $(this).parent().toggleClass("title_change_product");
+        });
       });
     </script>
   </body>
