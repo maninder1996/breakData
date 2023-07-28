@@ -42,6 +42,16 @@ ul{
     font-weight: 700;
 }
 /******header*********/
+.cart_value {
+    background-color: #ef5927;
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 2px;
+}
  .dropdown-submenu_wrap{
     position: absolute;
     z-index: 1;
@@ -297,13 +307,38 @@ li.childlink.open ul.child-link {
     display: flex;
     align-items: center;
     margin: 10px 0 0;
+    position: relative;
 }
 .filter {
     background-color: #033b77;
     color: #fff;
 }
-.filer_box {
+.provincias.expanded {
+    padding-left: 20px;
+}
+.provincias .checkbox {
+    margin: 0 0 6px;
     position: relative;
+    padding-left:15px;
+}
+.check-comunidad-autonoma {
+    position: absolute;
+    top: 4px;
+}
+.checkbox {
+    position: relative;
+}
+.checkbox .label-comunidad-autonoma {
+    padding-left: 20px;
+}
+.provincias .checkbox .check-provincia {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.filer_box {
+   
     display: flex;
     padding-right: 40px;
     flex-grow: 1;
@@ -313,7 +348,7 @@ li.childlink.open ul.child-link {
 }
 .filer_box .down_arrow {
     position: absolute;
-    right:50px;
+    right:10px;
     top: 50%;
     transform: translateY(-50%);
     pointer-events: none;
@@ -350,7 +385,7 @@ li.childlink.open ul.child-link {
     justify-content: space-between;
     padding: 10px 10px 7px;
 }
-.filer_box select {
+.filer_box .filer_text {
     width:100%;
     background-color: #16569d;
     border-color: #16569d;
@@ -359,6 +394,50 @@ li.childlink.open ul.child-link {
     padding:10px 65px 5px 5px;
     cursor: pointer;
     -webkit-appearance: none;
+    position: relative;
+}
+.filter_drodown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #efefef;
+    padding: 1rem;
+    transition: top 0.5s;
+    display: none;
+    max-height: 330px;
+    overflow-y: auto;
+}
+.filter_drodown_ul.caidad,.filter_drodown_ul.extrs {
+    justify-content: center;
+    text-align: center;
+}
+.filter_drodown_ul.caidad li,.filter_drodown_ul.extrs li {
+    justify-content: center;
+    text-align: center;
+    flex: 20% 0 0;
+}
+.filter_show_dropdown .filter_drodown{
+    display: block;
+    top: 110%;
+}
+.filter_drodown_ul {
+    color: #d1d1d1;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+
+}
+.comunidad-autonoma label {
+    color: #1d1d1d;
+    padding-left: 5px;
+    font-size: 12px;
+}
+
+.filter_drodown_ul label,.filter_drodown_ul li{
+    color: #1d1d1d;
+    font-size: 12px;
+    padding-left: 5px;
 }
 .hero_section .heading{
     font-weight:700;
@@ -800,10 +879,14 @@ li.childlink.open ul.child-link {
         justify-content: center;
     }
     .filer_box .down_arrow {
-        right: 20px;
+        right: 10px;
         
     }
+
     .fullimage {
-        width: 100%;
+        width: 100%;}
+    .filter_drodown {
+        max-height: 190px;
+        overflow-y: auto;
     }
 }
