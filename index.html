@@ -973,7 +973,8 @@
                                 >
                               </li>
                               <li class="grand-child">
-                                <a class="dropdown-menus"
+                                <a
+                                  class="dropdown-menus"
                                   class="level-3"
                                   href="/c/servicios-industriales"
                                   title="Bases de datos de Servicios industriales"
@@ -984,7 +985,8 @@
                                 >
                               </li>
                               <li class="grand-child">
-                                <a class="dropdown-menus"
+                                <a
+                                  class="dropdown-menus"
                                   class="level-3"
                                   href="/c/telecomunicaciones"
                                   title="Bases de datos de Telecomunicaciones"
@@ -995,7 +997,8 @@
                                 >
                               </li>
                               <li class="grand-child">
-                                <a class="dropdown-menus"
+                                <a
+                                  class="dropdown-menus"
                                   class="level-3"
                                   href="/c/tercera-edad"
                                   title="Bases de datos de Tercera Edad"
@@ -1006,7 +1009,8 @@
                                 >
                               </li>
                               <li class="grand-child">
-                                <a class="dropdown-menus"
+                                <a
+                                  class="dropdown-menus"
                                   class="level-3"
                                   href="/c/turismo"
                                   title="Bases de datos de Turismo"
@@ -1522,33 +1526,40 @@
                   <div class="dropdown-submenu_wrap">
                     <ul class="dropdown-submenu">
                       <li>
-                        <a class="dropdown-menus" href="/bbdd-en-venta" title="Bases de datos en venta"
+                        <a
+                          class="dropdown-menus"
+                          href="/bbdd-en-venta"
+                          title="Bases de datos en venta"
                           >BBDD en venta</a
                         >
                       </li>
                       <li>
-                        <a class="dropdown-menus"
+                        <a
+                          class="dropdown-menus"
                           href="/bbdd-personalizadas"
                           title="Bases de datos personalizadas"
                           >BBDD personalizadas</a
                         >
                       </li>
                       <li>
-                        <a class="dropdown-menus"
+                        <a
+                          class="dropdown-menus"
                           href="/listado-de_empresas_españa"
                           title="Listado de Empresas España"
                           >Listado de Empresas España</a
                         >
                       </li>
                       <li>
-                        <a class="dropdown-menus"
+                        <a
+                          class="dropdown-menus"
                           href="/bases-datos-correos-electronicos"
                           title="Base de datos de correos electrónicos"
                           >Base de datos de correos electrónicos</a
                         >
                       </li>
                       <li>
-                        <a class="dropdown-menus"
+                        <a
+                          class="dropdown-menus"
                           href="/bases-de-datos-empresas"
                           title="Bases de datos de empresas"
                           >Bases de datos de empresas</a
@@ -1571,12 +1582,20 @@
                   <div class="dropdown-submenu_wrap">
                     <ul class="dropdown-submenu">
                       <li>
-                        <a  class="dropdown-menus" href="/quienes-somos" title="Quiénes somos"
+                        <a
+                          class="dropdown-menus"
+                          href="/quienes-somos"
+                          title="Quiénes somos"
                           >Quiénes somos</a
                         >
                       </li>
                       <li>
-                        <a  class="dropdown-menus" href="/contacto" title="Contacto">Contacto</a>
+                        <a
+                          class="dropdown-menus"
+                          href="/contacto"
+                          title="Contacto"
+                          >Contacto</a
+                        >
                       </li>
                     </ul>
                   </div>
@@ -2919,11 +2938,9 @@
           $(this).parent().siblings().removeClass("open");
           $(this).parent().toggleClass("open");
         });
-        $(".grand-child").click(function () {
-          var data_id = $(this).attr("data-index");
-
-          $(".grandchild").hide();
-          $("#grand-child-" + data_id).show();
+        $(".child-link li.childlink").click(function () {
+          $(".child-link li.childlink").removeClass("site-border");
+          $(this).addClass("site-border");
         });
 
         //Product-title change
