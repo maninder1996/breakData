@@ -882,6 +882,9 @@ li.childlink.open ul.child-link {
         right: 10px;
         
     }
+
+    .fullimage {
+        width: 100%;}
     .filter_drodown {
         max-height: 190px;
         overflow-y: auto;
