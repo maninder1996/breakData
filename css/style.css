@@ -541,18 +541,16 @@ li.childlink .child-link .childlink.open .grand-child-link {
   padding: 1rem;
   transition: top 0.5s;
   display: none;
-  max-height: 330px;
-  overflow-y: auto;
+  
 }
 .filter_drodown_ul.caidad,
 .filter_drodown_ul.extrs {
   justify-content: center;
-  text-align: center;
 }
 .filter_drodown_ul.caidad li,
 .filter_drodown_ul.extrs li {
   justify-content: center;
-  text-align: center;
+  
   flex: 20% 0 0;
 }
 .filter_show_dropdown .filter_drodown {
@@ -564,6 +562,8 @@ li.childlink .child-link .childlink.open .grand-child-link {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  height: 320px;
+  overflow-y: auto;
 }
 .comunidad-autonoma label {
   color: #1d1d1d;
@@ -1126,8 +1126,5 @@ li.childlink .child-link .childlink.open .grand-child-link {
   .fullimage {
     width: 100%;
   }
-  .filter_drodown {
-    max-height: 190px;
-    overflow-y: auto;
-  }
+  
 }
