@@ -562,7 +562,7 @@ li.childlink .child-link .childlink.open .grand-child-link {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  height: 320px;
+  max-height: 300px;
   overflow-y: auto;
 }
 .comunidad-autonoma label {
