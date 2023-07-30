@@ -2418,6 +2418,7 @@
       <div class="container">
         <div class="row">
           <div class="col-xl-4 col-md-6 col-sm-12">
+            <a href="javascript:void(0)">
             <div class="product_box">
               <div class="product_header">
                 <div class="product_title">
@@ -2462,8 +2463,10 @@
                 </div>
               </div>
             </div>
+          </a>
           </div>
           <div class="col-xl-4 col-md-6 col-sm-12">
+            <a href="javascript:void(0)">
             <div class="product_box">
               <div class="product_header">
                 <div class="product_title">
@@ -2511,8 +2514,10 @@
                 </div>
               </div>
             </div>
+          </a>
           </div>
           <div class="col-xl-4 col-md-6 col-sm-12">
+            <a href="javascript:void(0)">
             <div class="product_box">
               <div class="product_header">
                 <div class="product_title">
@@ -2559,8 +2564,10 @@
                 </div>
               </div>
             </div>
+          </a>
           </div>
           <div class="col-xl-4 col-md-6 col-sm-12">
+            <a href="javascript:void(0)">
             <div class="product_box">
               <div class="product_header">
                 <div class="product_title">
@@ -2607,8 +2614,10 @@
                 </div>
               </div>
             </div>
+          </a>
           </div>
           <div class="col-xl-4 col-md-6 col-sm-12">
+            <a href="javascript:void(0)">
             <div class="product_box">
               <div class="product_header">
                 <div class="product_title">
@@ -2655,8 +2664,10 @@
                 </div>
               </div>
             </div>
+          </a>
           </div>
           <div class="col-xl-4 col-md-6 col-sm-12">
+            <a href="javascript:void(0)">
             <div class="product_box">
               <div class="product_header">
                 <div class="product_title">
@@ -2687,8 +2698,9 @@
                   </div>
                   <div class="product_descrption_2">
                     <p>
-                      2891 Empresas. 2383 Emails. 1124 Emails únicos. 2890
-                      Teléfonos. 2889 Direcciones.
+                      2891 Empresas.<br> 2383 Emails.
+                      <br> 1124 Emails únicos.<br> 2890
+                      Teléfonos.<br> 2889 Direcciones.
                     </p>
                   </div>
                 </div>
@@ -2707,6 +2719,7 @@
                 </div>
               </div>
             </div>
+          </a>
           </div>
         </div>
       </div>
@@ -2855,90 +2868,6 @@
       </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script>
-      // Event listener for clicks outside the menu
-      var ulElement = document.querySelector(".navigation_wrap");
-      document.addEventListener("click", function (event) {
-        var isClickedInsideMenu = ulElement.contains(event.target);
-        if (!isClickedInsideMenu) {
-          // Remove the 'ekit-dropdown-open-onclic' class from all elements
-          var divElements = ulElement.querySelectorAll(".nav_wrap .nav > li");
-          for (var i = 0; i < divElements.length; i++) {
-            divElements[i].classList.remove("active");
-          }
-          // Reset the previously clicked element
-          previousElement = null;
-        }
-      });
-      // Event listener for clicks outside the menu
-      var filterElement = document.querySelector(".filter_main_wrap");
-      document.addEventListener("click", function (event) {
-        var isClickedInsideMenu = filterElement.contains(event.target);
-        if (!isClickedInsideMenu) {
-          // Remove the 'ekit-dropdown-open-onclic' class from all elements
-          var divElements = document.querySelectorAll(".filer_box");
-          for (var i = 0; i < divElements.length; i++) {
-            divElements[i].classList.remove("filter_show_dropdown");
-          }
-          // Reset the previously clicked element
-          previousElement = null;
-        }
-      });
-      $(document).ready(function () {
-        $(".cart_search_wrap .search_btn").click(function () {
-          $(".search_box").slideToggle();
-        });
-        $(".toggle_mobile").click(function () {
-          $(".navigation_wrap").addClass("show_sidebar");
-        });
-        $(".cross_btn").click(function () {
-          $(".navigation_wrap").removeClass("show_sidebar");
-        });
-
-        $(".nav li").click(function () {
-          $(".nav li").removeClass("active");
-          $(this).addClass("active");
-        });
-
-        var previouslyClickedElement = null;
-
-        $(".filter_main_wrap .filer_box .filer_text").click(function () {
-          if (
-            previouslyClickedElement !== null &&
-            !$(this).is(previouslyClickedElement)
-          ) {
-            // Remove the class from the previously clicked element if it exists
-            $(previouslyClickedElement)
-              .parent()
-              .removeClass("filter_show_dropdown");
-          }
-
-          // Toggle the class on the currently clicked element
-          $(this).parent().toggleClass("filter_show_dropdown");
-
-          // Update the previouslyClickedElement variable with the current element
-          previouslyClickedElement = this;
-        });
-        $(".dropdown-menus").click(function () {
-          $(this).parent().siblings().removeClass("open");
-          $(this).parent().toggleClass("open");
-        });
-        $(".child-link li.childlink").click(function () {
-          $(".child-link li.childlink").removeClass("site-border");
-          $(this).addClass("site-border");
-        });
-
-        //Product-title change
-        $(".conteos").click(function () {
-          $(this).parent().siblings().removeClass("title_change_product");
-          $(this).parent().toggleClass("title_change_product");
-        });
-
-        //show more text
-        $(".lerer_mas").click(function () {
-          $(".leer_mas_data").toggleClass("show-more-height");
-        });
-      });
-    </script>
+     <script src="js/custome.js"></script>
   </body>
 </html>

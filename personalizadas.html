@@ -2546,44 +2546,6 @@
       </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script>
-      // Event listener for clicks outside the menu
-      var ulElement = document.querySelector(".navigation_wrap");
-      document.addEventListener("click", function (event) {
-        var isClickedInsideMenu = ulElement.contains(event.target);
-        if (!isClickedInsideMenu) {
-          // Remove the 'ekit-dropdown-open-onclic' class from all elements
-          var divElements = ulElement.querySelectorAll(".nav_wrap .nav > li");
-          for (var i = 0; i < divElements.length; i++) {
-            divElements[i].classList.remove("active");
-          }
-          // Reset the previously clicked element
-          previousElement = null;
-        }
-      });
-      $(document).ready(function () {
-        $(".toggle_mobile").click(function () {
-          $(".navigation_wrap").addClass("show_sidebar");
-        });
-        $(".cross_btn").click(function () {
-          $(".navigation_wrap").removeClass("show_sidebar");
-        });
-
-        $(".nav li").click(function () {
-          $(".nav li").removeClass("active");
-          $(this).addClass("active");
-        });
-        $(".dropdown-menus").click(function () {
-          $(this).parent().siblings().removeClass("open");
-          $(this).parent().toggleClass("open");
-        });
-        $(".grand-child").click(function () {
-          var data_id = $(this).attr("data-index");
-
-          $(".grandchild").hide();
-          $("#grand-child-" + data_id).show();
-        });
-      });
-    </script>
+    <script src="js/custome.js"></script>
   </body>
 </html>
