@@ -1623,11 +1623,34 @@
       </div>
     </header>
 
-    <div class="search_box">
+     <div class="search_box">
       <div class="container">
         <div class="search_inner">
-          <input type="text" placeholder="" />
-          <input type="text" placeholder="" />
+          <div class="input_wrap"><input type="text" placeholder="" />
+            <div class="search_result">
+              <p>Empresa de mensajeria</p>
+              <p>Empresa exportadoras</p>
+              <p>Empresa de requestas de automovil</p>
+              <p>Empresa de jardineria</p>
+              <p>Empresa de limpieza</p>
+              <p>Empresa bolsos</p>
+              <p>Empresa de lenceria</p>
+              <p>Empresa de ropa de hogar</p>
+            </div>
+          </div>
+          <div class="input_wrap"> <input type="text" placeholder="" />
+            <div class="search_result">
+              <p>Empresa de mensajeria</p>
+              <p>Empresa exportadoras</p>
+              <p>Empresa de requestas de automovil</p>
+              <p>Empresa de jardineria</p>
+              <p>Empresa de limpieza</p>
+              <p>Empresa bolsos</p>
+              <p>Empresa de lenceria</p>
+              <p>Empresa de ropa de hogar</p>
+            </div>
+          </div>
+          
           <button type="button" class="search_btn">
             <img
               src="images/search_icon.svg"
@@ -1636,7 +1659,9 @@
             />
           </button>
         </div>
-        <div class="cerrar_buscador">Cerrar buscador</div>
+        <div class="cerrar_buscador">
+          <button type="button">Cerrar buscador</button>
+        </div>
       </div>
     </div>
     <section class="filter">
@@ -1645,17 +1670,34 @@
           <div class="filter_title">
             <span>FILTRO DE BBDD</span>
           </div>
-          <div class="limpair_filter">Limpiar filtro</div>
+          <div class="limpair_filter"><a  href="#"> Limpiar filtro </a></div>
           <div class="filter_main_wrap">
             <div class="filer_box">
               <div class="filer_text">
                 PROVINCIAS
                 <img src="images/down-arrow.svg" class="down_arrow" alt="" />
               </div>
-
+              <div class="select_filter_data">
+                <p class="title">PROVINCIAS</p>
+                <ul>
+                  <li>
+                    <button type="button">
+                      Todas
+                      <img class="close_icon" src="images/cross_icon.svg" />
+                    </button>
+                  </li>
+                </ul>
+              </div>
               <div class="filter_drodown">
                 <ul class="comunidad-autonoma filter_drodown_ul">
                   <div class="col left">
+                    <li class="checkbox">
+                      <input
+                        type="checkbox"
+                        class="check-comunidad-autonoma"
+                      /><label for="ca1" class="label-comunidad-autonoma"
+                        ><strong>Todas Zonas</strong></label
+                      ></li>
                     <li class="checkbox">
                       <input
                         type="checkbox"
@@ -2181,6 +2223,23 @@
                 CATEGORÍAS
                 <img src="images/down-arrow.svg" class="down_arrow" alt="" />
               </div>
+              <div class="select_filter_data">
+                <p class="title">CATEGORÍAS</p>
+                <ul>
+                  <li>
+                    <button type="button">
+                      Agricultura y ganadería
+                      <img class="close_icon" src="images/cross_icon.svg" />
+                    </button>
+                  </li>
+                  <li>
+                    <button type="button">
+                      Alimentación
+                      <img class="close_icon" src="images/cross_icon.svg" />
+                    </button>
+                  </li>
+                </ul>
+              </div>
 
               <div class="filter_drodown">
                 <ul class="category filter_drodown_ul">
@@ -2238,7 +2297,17 @@
                 CALIDAD
                 <img src="images/down-arrow.svg" class="down_arrow" alt="" />
               </div>
-
+              <div class="select_filter_data">
+                <p class="title">CALIDAD</p>
+                <ul>
+                  <li>
+                    <button type="button">
+                      Base premium
+                      <img class="close_icon" src="images/cross_icon.svg" />
+                    </button>
+                  </li>
+                </ul>
+              </div>
               <div class="filter_drodown">
                 <ul class="filter_drodown_ul caiadad">
                   <div class="col left">
@@ -2253,7 +2322,29 @@
                 EXTRAS
                 <img src="images/down-arrow.svg" class="down_arrow" alt="" />
               </div>
-
+              <div class="select_filter_data">
+                <p class="title">EXTRAS</p>
+                <ul>
+                  <li>
+                    <button type="button">
+                      CIF
+                      <img class="close_icon" src="images/cross_icon.svg" />
+                    </button>
+                  </li>
+                  <li>
+                    <button type="button">
+                      Datos mercantiles
+                      <img class="close_icon" src="images/cross_icon.svg" />
+                    </button>
+                  </li>
+                  <li>
+                    <button type="button">
+                      Empleados
+                      <img class="close_icon" src="images/cross_icon.svg" />
+                    </button>
+                  </li>
+                </ul>
+              </div>
               <div class="filter_drodown">
                 <ul class="filter_drodown_ul extrs">
                   <div class="col left">
@@ -2342,117 +2433,130 @@
               <li class="th">DESGLOSE</li>
               <li class="th">MUESTRAS</li>
               <li class="th">PRECIO TOTAL</li>
-              <li class="th"><input type="checkbox" /></li>
+              <li class="th"><input type="checkbox"></li>
             </ul>
             <ul class="table_body">
               <li>
+                <div class="table_row">
                 <div class="first_td">BRK0208P</div>
                 <div class="orange_table_title second_td">Bebidas</div>
                 <div>
-                  <img class="pluse_icon" src="images/pluse_icon.svg" alt="" />
+                  <img class="pluse_icon" src="images/pluse_icon.svg" alt="">
                 </div>
                 <div>
-                  <img class="pluse_icon" src="images/pluse_icon.svg" alt="" />
+                  <img class="pluse_icon" src="images/pluse_icon.svg" alt="">
                 </div>
                 <div>
-                  <img class="muestra_icon" src="images/muestra.svg" alt="" />
+                  <span class="muestra_wrap"><img class="muestra_icon" src="images/muestra.svg" alt=""></span>
                 </div>
                 <div>14€</div>
-                <div><input type="checkbox" /></div>
+                <div><input type="checkbox"></div>
+              </div>
+           
               </li>
+             
               <li>
+                <div class="table_row">
                 <div class="first_td">BRK0218P</div>
                 <div class="orange_table_title second_td">Carnicerias</div>
                 <div>
-                  <img class="pluse_icon" src="images/pluse_icon.svg" alt="" />
+                  <img class="pluse_icon" src="images/pluse_icon.svg" alt="">
                 </div>
                 <div>
-                  <img class="pluse_icon" src="images/pluse_icon.svg" alt="" />
+                  <img class="pluse_icon" src="images/pluse_icon.svg" alt="">
                 </div>
                 <div>
-                  <img class="muestra_icon" src="images/muestra.svg" alt="" />
+                  <span class="muestra_wrap"><img class="muestra_icon" src="images/muestra.svg" alt=""></span>
                 </div>
                 <div>17€</div>
-                <div><input type="checkbox" /></div>
+                <div><input type="checkbox"></div>
+                </div>
+
               </li>
               <li>
+                <div class="table_row">
                 <div class="first_td">BRK0219P</div>
                 <div class="orange_table_title second_td">Congelados</div>
                 <div>
-                  <img class="pluse_icon" src="images/pluse_icon.svg" alt="" />
+                  <img class="pluse_icon" src="images/pluse_icon.svg" alt="">
                 </div>
                 <div>
-                  <img class="pluse_icon" src="images/pluse_icon.svg" alt="" />
+                  <img class="pluse_icon" src="images/pluse_icon.svg" alt="">
                 </div>
                 <div>
-                  <img class="muestra_icon" src="images/muestra.svg" alt="" />
+                  <span class="muestra_wrap"><img class="muestra_icon" src="images/muestra.svg" alt=""></span>
                 </div>
                 <div>18€</div>
-                <div><input type="checkbox" /></div>
+                <div><input type="checkbox"></div>
+                </div>
               </li>
               <li>
-                <div class="first_td">BRK0220P</div>
+                <div class="table_row">                <div class="first_td">BRK0220P</div>
                 <div class="orange_table_title second_td">
                   Distribución producto congelado
                 </div>
                 <div>
-                  <img class="pluse_icon" src="images/pluse_icon.svg" alt="" />
+                  <img class="pluse_icon" src="images/pluse_icon.svg" alt="">
                 </div>
                 <div>
-                  <img class="pluse_icon" src="images/pluse_icon.svg" alt="" />
+                  <img class="pluse_icon" src="images/pluse_icon.svg" alt="">
                 </div>
                 <div>
-                  <img class="muestra_icon" src="images/muestra.svg" alt="" />
+                  <span class="muestra_wrap"><img class="muestra_icon" src="images/muestra.svg" alt=""></span>
                 </div>
                 <div>20.5€</div>
-                <div><input type="checkbox" /></div>
+                <div><input type="checkbox"></div>
+                </div>
               </li>
               <li>
+                <div class="table_row">
                 <div class="first_td">BRK0205P</div>
                 <div class="orange_table_title second_td">
                   Empresas de conserva
                 </div>
                 <div>
-                  <img class="pluse_icon" src="images/pluse_icon.svg" alt="" />
+                  <img class="pluse_icon" src="images/pluse_icon.svg" alt="">
                 </div>
                 <div>
-                  <img class="pluse_icon" src="images/pluse_icon.svg" alt="" />
+                  <img class="pluse_icon" src="images/pluse_icon.svg" alt="">
                 </div>
                 <div>
-                  <img class="muestra_icon" src="images/muestra.svg" alt="" />
+                  <span class="muestra_wrap"><img class="muestra_icon" src="images/muestra.svg" alt=""></span>
                 </div>
                 <div>20€</div>
-                <div><input type="checkbox" /></div>
+                <div><input type="checkbox"></div>
+                </div>
+              
               </li>
               <li>
+                <div class="table_row">
                 <div class="first_td">BRK0217P</div>
                 <div class="orange_table_title second_td">
                   Empresas de delicatessen
                 </div>
                 <div>
-                  <img class="pluse_icon" src="images/pluse_icon.svg" alt="" />
+                  <img class="pluse_icon" src="images/pluse_icon.svg" alt="">
                 </div>
                 <div>
-                  <img class="pluse_icon" src="images/pluse_icon.svg" alt="" />
+                  <img class="pluse_icon" src="images/pluse_icon.svg" alt="">
                 </div>
                 <div>
-                  <img class="muestra_icon" src="images/muestra.svg" alt="" />
+                  <span class="muestra_wrap"><img class="muestra_icon" src="images/muestra.svg" alt=""></span>
                 </div>
                 <div>38€</div>
-                <div><input type="checkbox" /></div>
+                <div><input type="checkbox"></div>
+              </div>
               </li>
             </ul>
           </div>
         </div>
         <div class="table_total">
-       
           <p>Suma total de bases de datos seleccionadas</p>
           <h2>TOTAL: 199,17€</h2>
           <div class="btn_wrap">
-          <button class="button" type="button">AÑADIR A LA CESTA</button>
+            <button class="button" type="button">AÑADIR A LA CESTA</button>
           </div>
-       
-    </div>
+        </div>
       </div>
     </div>
 

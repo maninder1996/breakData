@@ -58,7 +58,9 @@ h4,h5{
 .pluse_icon,.muestra_icon{
   width: 25px;
 }
-
+.table_category .muestra_wrap .muestra_icon {
+  width: 17px;
+}
 /******header*********/
 .cart_value {
   background-color: #ef5927;
