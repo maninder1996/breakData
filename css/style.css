@@ -49,6 +49,9 @@ h4,h5{
 .common_text_link{
     color: #ef5927;
 }
+.common_text_link:hover{
+  color: #1d1d1dF;
+}
 .fullimage {
     width: 100%;
 }
@@ -351,6 +354,12 @@ li.childlink .child-link .childlink.open .grand-child-link {
   margin-bottom: 5px;
   font-weight: 300;
 }
+.limpair_filter a{
+  color: #fff;
+}
+.limpair_filter a:hover{
+  color: #ef5927;
+}
 .hero_section .heading span {
   width: 100%;
   font-weight:300;
@@ -586,6 +595,15 @@ li.childlink .child-link .childlink.open .grand-child-link {
   top: 50%;
   transform: translateY(-50%);
 }
+.cerrar_buscador button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+}
+.cerrar_buscador button:hover{
+  color: #ef5927;
+}
 .filter_drodown_ul input {
   cursor: pointer;
 }
@@ -780,8 +798,17 @@ li.childlink .child-link .childlink.open .grand-child-link {
 .product_price .heading-2 {
   margin: 0 10px;
 }
+.product_cart {
+  transition: 0.5s;
+}
+.product_cart:hover {
+  transform: scale(1.1);
+}
+.product_order a:hover {
+  color: #ef5927;
+}
 /****footer*******/
-.footer_box li a {
+.footer_box li a:hover{
   color: #ef5927;
 }
 .footer {
@@ -826,9 +853,7 @@ li.childlink .child-link .childlink.open .grand-child-link {
   margin: 0;
   font-weight: 300;
 }
-.footer_box li a:hover {
-  color: #1d1d1d;
-}
+
 /***review******/
 .review_innerr .heading-2 {
   text-transform: uppercase;
@@ -901,6 +926,9 @@ li.childlink .child-link .childlink.open .grand-child-link {
 }
 .pagina-banner {
   margin: 40px 0 0;
+}
+.list_breadcrump a:hover{
+  color: #ef5927;
 }
 /*****tinda* resultados******/
 .show_table_down_box .table_head .th:nth-child(n + 4) {

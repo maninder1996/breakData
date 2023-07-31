@@ -31,6 +31,10 @@ $(document).ready(function () {
   $(".cart_search_wrap .search_btn").click(function () {
     $(".search_box").slideToggle();
   });
+  $(".cerrar_buscador").click(function () {
+    $(".search_box").slideUp();
+  });
+  
   $(".toggle_mobile").click(function () {
     $(".navigation_wrap").addClass("show_sidebar");
   });
