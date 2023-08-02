@@ -63,14 +63,18 @@ h4,h5{
 }
 /******header*********/
 .cart_value {
-  background-color: #ef5927;
-  width: 17px;
-  height: 17px;
-  display: inline-block;
-  text-align: center;
-  border-radius: 20px;
-  font-size: 14px;
-  padding: 2px;
+	background-color: #ef5927;
+	width: 30px;
+	display: inline-block;
+	text-align: center;
+	border-radius: 20px;
+	font-size: 14px;
+	padding: 8px 2px;
+	line-height: 14px;
+	color: #fff;
+}
+.cart_data:hover {
+	color: #ef5927;
 }
 .dropdown-submenu_wrap {
   position: absolute;
