@@ -961,7 +961,7 @@ li.childlink .child-link .childlink.open .grand-child-link {
 .pagina-banner {
   margin: 40px 0 0;
 }
-.list_breadcrump a:hover,.category_product .heading-2 a:hover{
+.list_breadcrump a:hover,.category_product .heading-2 a:hover,.footer_box a:hover{
   color: #ef5927;
 }
 .category_product .heading-2 a{
