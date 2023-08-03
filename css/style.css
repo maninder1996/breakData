@@ -63,14 +63,18 @@ h4,h5{
 }
 /******header*********/
 .cart_value {
-  background-color: #ef5927;
-  width: 17px;
-  height: 17px;
-  display: inline-block;
-  text-align: center;
-  border-radius: 20px;
-  font-size: 14px;
-  padding: 2px;
+	background-color: #ef5927;
+	width: 30px;
+	display: inline-block;
+	text-align: center;
+	border-radius: 20px;
+	font-size: 14px;
+	padding: 8px 2px;
+	line-height: 14px;
+	color: #fff;
+}
+.cart_data:hover {
+	color: #ef5927;
 }
 .dropdown-submenu_wrap {
   position: absolute;
@@ -250,6 +254,9 @@ li.childlink .child-link .childlink.open .grand-child-link {
   display: flex;
   align-items: center;
 }
+.top_header .nav li a:hover{
+  color: #ef5927;
+}
 .top_header .nav {
   display: flex;
   align-items: center;
@@ -288,7 +295,14 @@ li.childlink .child-link .childlink.open .grand-child-link {
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 1px solid transparent;
 }
+.search_btn:hover{
+  background-color:transparent;
+  border-color: #ef5927;
+ 
+}
+
 .navigation_wrap {
   flex-grow: 1;
   margin-top: 15px;
@@ -684,12 +698,11 @@ li.childlink .child-link .childlink.open .grand-child-link {
   font-weight:400;
 }
 .title_change_product.product_data_wrap .product_descrption_2,
-.title_change_product .conteos .minus_icon {
-  display: block;
+.title_change_product .conteos .minus_icon_button {
+  display:inline-block;
 }
-.product_data_wrap.title_change_product .conteos .pluse_icon,
+.product_data_wrap.title_change_product .conteos .plus_icon_button,
 .product_data_wrap .product_descrption_2,
-.conteos .minus_icon,
 .title_change_product.product_data_wrap .product_descrption {
   display: none;
 }
@@ -698,8 +711,27 @@ li.childlink .child-link .childlink.open .grand-child-link {
   cursor: pointer;
 }
 .conteos img {
-  width: 25px;
+  width: 20px;
+}
+.plus_icon_button,.minus_icon_button {
+  background-color:#ef5927;
+  border: 1px solid transparent;
+  width: 31px;
+  height: 30px;
+  border-radius: 30px;
   margin-left: 10px;
+
+}
+.plus_icon_button:hover,.minus_icon_button:hover {
+  background-color:transparent;
+  border: 1px solid #ef5927;
+}
+.plus_icon_button:hover img,.minus_icon_button:hover img{
+ filter: invert(1);
+}
+
+.minus_icon_button{
+    display: none;
 }
 .product_title .heading-2 {
   font-size: 17px;
@@ -1221,6 +1253,7 @@ table td, table th{
   .top_header .nav li a {
     font-size: 12px;
   }
+  
   .user_icon {
     width: 13px;
   }
