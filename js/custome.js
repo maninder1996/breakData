@@ -85,4 +85,32 @@ $(document).ready(function () {
   $(".lerer_mas").click(function () {
     $(".leer_mas_data").toggleClass("show-more-height");
   });
+
+/**********table hide show***** */
+$(".conteos_plus").click(function () {
+  let $elem = $(this);
+  $target = $(this).parent().parent().parent().find(".conteos_table");
+  $elem.toggleClass("active");
+  $target.toggle();
+  $(".conteos_plus").not($elem).removeClass("active");
+  $(".conteos_table").not($target).hide();
+});
+$(".desglose_plus").click(function () {
+  let $elem = $(this);
+  $target = $(this).parent().parent().parent().find(".desglose_table");
+  $elem.toggleClass("active");
+  $target.toggle();
+  $(".desglose_plus").not($elem).removeClass("active");
+  $(".desglose_table").not($target).hide();
+});
+$(".conteos_sub_plus").click(function () {
+  let $elem = $(this);
+  $target = $(this).parent().parent().parent().find(".conteos_sub_table");
+  $elem.toggleClass("active");
+  $target.toggle();
+  $(".conteos_sub_plus").not($elem).removeClass("active");
+  $(".conteos_sub_table").not($target).hide();
+});
+
+
 });

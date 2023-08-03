@@ -961,8 +961,11 @@ li.childlink .child-link .childlink.open .grand-child-link {
 .pagina-banner {
   margin: 40px 0 0;
 }
-.list_breadcrump a:hover{
+.list_breadcrump a:hover,.category_product .heading-2 a:hover{
   color: #ef5927;
+}
+.category_product .heading-2 a{
+  color: #fff;
 }
 /*****tinda* resultados******/
 .show_table_down_box .table_head .th:nth-child(n + 4) {
@@ -993,7 +996,7 @@ li.childlink .child-link .childlink.open .grand-child-link {
 }
 .table .table_body .second_td{
   color: #ef5927;
-  flex: 300px 0 0;
+  flex:250px 0 0;
   text-align: left;
 }
 .table .table_body li{
@@ -1013,7 +1016,7 @@ li.childlink .child-link .childlink.open .grand-child-link {
   text-align: center;
 }
 .table .th:nth-child(2){
-  flex:300px 0 0;
+  flex:250px 0 0;
 }
 .table_body {
   flex-direction: column;
@@ -1105,6 +1108,77 @@ table td, table th{
 }
 .table .table_body .table_row {
   padding: 0;
+}
+/*****category*********/
+.conteos_plus,.desglose_plus {
+  margin: 0;
+  text-align: center;
+}
+.transperent_plus_minus .minus_icon,.active.transperent_plus_minus .pluse_icon ,.conteos_plus .minus_icon,.desglose_plus .minus_icon,.active.conteos_plus .pluse_icon,.active.desglose_plus .pluse_icon{
+  display: none;
+}
+.active.conteos_plus .minus_icon,.active.desglose_plus .minus_icon, .active.transperent_plus_minus .minus_icon{
+  display:inline-block;
+}
+.sub_table_link {
+  font-weight: 400;
+  color:#ef5927;
+}
+.sub_table_link:hover {
+  color:#1d1d1d;
+}
+.transperent_plus_minus {
+  width: 30px;
+  cursor: pointer;
+  height: 30px;
+  border-radius: 30px;
+  border: 1px solid transparent;
+  padding: 2px;
+}
+.transperent_plus_minus:hover{
+  border-color: #ef5927;
+}
+.table_body .muestra_wrap img {
+  width: 20px;
+}
+.tooltip_main p {
+  position: absolute;
+  right: 0;
+  width: 420px;
+  background-color: #eee;
+  padding: 14px 10px;
+  font-size: 17px;
+  font-weight: 400;
+  top:20px;
+  display: none;
+}
+.tooltip_main .tooltip_icon {
+  width: 16px;
+  display: inline-block;
+  height: 16px;
+  background-color: #ef5927;
+  padding: 2px;
+  border-radius: 46px;
+  color: #fff;
+  font-size: 13px;
+  cursor: pointer;
+}
+span.tooltip_main {
+  padding: 0;
+  position: relative;
+  background-color: transparent;
+}
+.tooltip_main:hover p{
+ display: block;
+}
+.show_table_down_box.simple_table.conteos_table {
+  display: none;
+}
+.show_table_down_box.desglose_table {
+  display: none;
+}
+.thrid_table.conteos_sub_table {
+  display: none;
 }
 @media (max-width: 1024px) {
   .navigation_wrap.show_sidebar {
