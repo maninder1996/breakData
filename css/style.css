@@ -1143,16 +1143,25 @@ table td, table th{
 .sub_table_link:hover {
   color:#1d1d1d;
 }
-.transperent_plus_minus {
+.transperent_plus_minus,.desglose_table a{
   width: 30px;
   cursor: pointer;
   height: 30px;
   border-radius: 30px;
   border: 1px solid transparent;
   padding: 2px;
+  background-color: transparent;
 }
-.transperent_plus_minus:hover{
+
+.desglose_table a{
+  display: inline-block;
+  margin: -5px 0 0;
+}
+.transperent_plus_minus:hover,.desglose_table a:hover{
   border-color: #ef5927;
+}
+.transperent_plus_minus:hover img,.desglose_table a:hover img{
+	filter: brightness(0%);
 }
 .table_body .muestra_wrap img {
   width: 20px;
