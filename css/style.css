@@ -999,6 +999,12 @@ li.childlink .child-link .childlink.open .grand-child-link {
   flex:250px 0 0;
   text-align: left;
 }
+.table .table_body .second_td a{
+  color: #ef5927;
+}
+.table .table_body .second_td a:hover{
+  color: #1d1d1d;
+}
 .table .table_body li{
   border-width: 1px 0 0;
   border-style: solid;
@@ -1061,6 +1067,16 @@ li.childlink .child-link .childlink.open .grand-child-link {
 .show_table_down_box .table_head .th:nth-child(3),.show_table_down_box .table_body div:nth-child(3) {
   min-width: 200px;
   text-align: left;
+}
+.show_table_down_box .table_head .th:nth-child(2) {
+  text-align: left;
+}
+.show_table_down_box .table_head .th:nth-child(1) {
+  align-self: flex-start;
+  width: 13px;
+}
+.show_table_down_box .table_head .th:nth-child(1) input{
+  width: 13px;
 }
 .show_table_down_box,.show_table_down_box .table_body,.show_table_down_box .table_head,.show_table_down_box .table_head .th{
   background-color: #efefef;
