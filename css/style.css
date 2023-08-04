@@ -766,7 +766,7 @@ li.childlink .child-link .childlink.open .grand-child-link {
 }
 .product_data .product_image img {
   width: 100%;
-  height: 100px;
+  height: 130px;
   object-fit: cover;
   object-position: center;
 }
