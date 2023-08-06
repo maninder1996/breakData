@@ -1205,6 +1205,112 @@ span.tooltip_main {
 .thrid_table.conteos_sub_table {
   display: none;
 }
+.table_top_header {
+  background-color: #819dbb;
+  padding: 20px;
+  border-radius: 5px 5px 0 0;
+}
+.table_top_header ul {
+  display: flex;
+}
+.table_top_header ul li{
+  margin-right: 10px;
+}
+.table_top_header ul li a:hover{
+  background-color:transparent;
+  border-color: #ef5927;  
+}
+.cesta_compar .first_td img {
+  width: 100%;
+}
+.cesta_compar .table_body .first_td,.cesta_compar .th:first-child {
+  flex:80px 0 0;
+}
+.table_category.cesta_compar {
+  font-size: 14px;
+}
+.cesta_compar .table .localización_edit {
+  flex:320px 0 0;
+}
+.cesta_compar .table .localización_text {
+  text-align: left;
+  padding-right: 30px;
+  position: relative;
+  cursor: pointer;
+}
+.table_category.cesta_compar .table_row {
+  align-items: center;
+}
+.table_category.cesta_compar .orange_table_title p {
+  color: #1d1d1d;
+}
+.cesta_compar .table .localización_text .plus_icon_button {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+.localización_text{
+text-align: left;
+}
+.cesta_compar .th:nth-child(2){
+  text-align: left;
+}
+.table_top_header ul li a{
+  background-color: #ef5927;
+  border: none;
+  padding: 10px 15px 5px;
+  color: #fff;
+  font-weight: 300;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  border: solid 1px transparent;
+  font-weight: 300;
+  transition: 0.5s;
+}
+.cesta_compar .table {
+  border-top-color: #b0cded;
+  border-radius: 0 0 5px 5px;
+}
+
+.compair_btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 0 100px;
+}
+.table_footer {
+  width: 450px;
+  display: inline-block;
+  text-align: left;
+  max-width: 100%;
+}
+.table_footer p {
+  margin:30px 0 2px;
+}
+.validar {
+  display: flex;
+  margin: 0 0 20px;
+}
+.validar input {
+  flex: 1;
+  background-color: #efefef;
+  border: 1px solid #efefef;
+  margin-right: 10px;
+}
+.table_footer ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 10px;
+}
+.table_footer ul .total {
+  font-size: 20px;
+  margin: 20px 0 0;
+}
+
 @media (max-width: 1024px) {
   .navigation_wrap.show_sidebar {
     right: 0;
