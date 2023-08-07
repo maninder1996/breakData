@@ -40,6 +40,7 @@
             <a href="index.html"><img src="images/logo.png" alt="logo" /></a>
           </div>
           <div class="navigation_wrap">
+            <div class="overlay"></div>
             <div class="nav_wrap">
               <ul class="nav">
                 <li class="cross_btn">
@@ -2338,7 +2339,7 @@
         <div class="table_responsive">
           <div class="table_top_header">
             <ul>
-              <li><a href="#">PRESUPUESTO</a></li>
+              <li><a class="active_tab" href="#" >PRESUPUESTO</a></li>
               <li><a href="#">DESCARGAR CONTEOS</a></li>
               <li><a href="#">CAMBIO ZONA GEOGRÁFICA</a></li>
               <li><a href="#"> CAMBIO BASE</a></li>
@@ -2351,9 +2352,30 @@
               <li class="th">PRODUCTO</li>
               <li class="th">CONTEOS</li>
               <li class="th localización_edit">LOCALIZACIÓN GEOGRÁFICA</li>
-              <li class="th">PRECIO</li>
-              <li class="th">DESCUENTO</li>
-              <li class="th">TOTAL</li>
+              <li class="th">PRECIO <span class="tooltip_main">
+                <span class="tooltip_icon">?</span>
+                <p>
+                  Precio con IVA incluido, antes de descuentos por volumen de
+                  compras. Incluye precio de la base de datos premium o
+                  estandar y extras seleccionados
+                </p>
+              </span></li>
+              <li class="th">DESCUENTO <span class="tooltip_main">
+                <span class="tooltip_icon">?</span>
+                <p>
+                  Precio con IVA incluido, antes de descuentos por volumen de
+                  compras. Incluye precio de la base de datos premium o
+                  estandar y extras seleccionados
+                </p>
+              </span></li>
+              <li class="th">TOTAL <span class="tooltip_main">
+                <span class="tooltip_icon">?</span>
+                <p>
+                  Precio con IVA incluido, antes de descuentos por volumen de
+                  compras. Incluye precio de la base de datos premium o
+                  estandar y extras seleccionados
+                </p>
+              </span></li>
               <li class="th"><input type="checkbox" /></li>
             </ul>
             <ul class="table_body">

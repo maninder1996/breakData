@@ -41,6 +41,9 @@ $(document).ready(function () {
   $(".cross_btn").click(function () {
     $(".navigation_wrap").removeClass("show_sidebar");
   });
+  $(".overlay").click(function () {
+    $(".navigation_wrap").removeClass("show_sidebar");
+  });
 
   $(".nav li").click(function () {
     $(".nav li").removeClass("active");
