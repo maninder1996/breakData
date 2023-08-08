@@ -1444,6 +1444,25 @@ table th {
     width: 100%;
     display: none;
 }
+.localizacio span {
+  display: flex;
+  align-items: center;
+}
+.localizacio span .tooltip_icon {
+  width: auto;
+  background-color: transparent;
+  color: #ef5927;
+  padding: 0;
+  margin-left: 2px;
+  position: relative;
+}
+.localizacio span .tooltip_icon p {
+  font-size: 14px;
+  color: #1d1d1d;
+}
+.localizacio span .tooltip_icon:hover p {
+  display: block;
+}
 @media (max-width: 1024px) {
   .heading-2{
     font-size: 22px;
