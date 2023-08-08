@@ -1467,6 +1467,9 @@ table th {
   align-items: center;
   margin-top: 20px;
 }
+.descargar img {
+  width: 20px;
+}
 .descargar div {
   margin-right: 10px;
 }
