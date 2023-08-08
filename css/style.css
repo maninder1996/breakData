@@ -1459,6 +1459,16 @@ table th {
 .localizacio span .tooltip_icon p {
   font-size: 14px;
   color: #1d1d1d;
+  right: inherit;
+  left: 0;
+}
+.descargar{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.descargar div {
+  margin-right: 10px;
 }
 .localizacio span .tooltip_icon:hover p {
   display: block;
