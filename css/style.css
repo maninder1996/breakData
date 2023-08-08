@@ -1476,6 +1476,9 @@ table th {
 .localizacio span .tooltip_icon:hover p {
   display: block;
 }
+.art_individal .table_head .th:first-child,.art_individal .table .table_body .table_row div:nth-child(2){
+  text-align: left;
+}
 @media (max-width: 1024px) {
   .heading-2{
     font-size: 22px;
