@@ -1690,6 +1690,25 @@ li.childlink .child-link .grand-child-link {
 }
 
 @media (max-width: 767px) {
+  .footer_box ul li.footer_logo img {
+    width: 250px;
+  }
+  .search_inner {
+    max-width: 100%;
+   
+}
+.search_inner .input_wrap {
+  margin: 0 10px;
+}
+.search_result {
+  padding: 10px;
+ 
+}
+.cerrar_buscador {
+  right: 10px;
+  top: -23px;
+  transform: inherit;
+}
   .logo img {
     width: 140px;
   }
