@@ -1687,6 +1687,10 @@ li.childlink .child-link .grand-child-link {
   border-left: none;
   padding-left:45px;
 }
+.cerrar_buscador {
+  right: 10px;
+  
+}
 }
 
 @media (max-width: 767px) {
