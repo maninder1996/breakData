@@ -1408,6 +1408,9 @@ table th {
 .product_tab .nav-tabs button.active {
   background-color: #ddd;
 }
+.product_tab button:hover{
+  color: #ef5927;
+}
 .product_tab .tab-content {
   border-width: 0 1px 1px;
   border-color: #f7f7f7;
