@@ -630,7 +630,7 @@ li.childlink .child-link .childlink.open .grand-child-link {
 }
 
 .leer_mas_data {
-  height: 100px;
+  height: 99px;
   overflow: hidden;
   transition: height 2s;
 }
@@ -1690,6 +1690,14 @@ li.childlink .child-link .grand-child-link {
 .cerrar_buscador {
   right: 10px;
   
+}
+.dropdown-submenu li a {
+    padding: 3px 15px;
+}
+.nav_wrap li a {
+  padding: 3px 5px;
+  margin: 10px 0;
+  font-size: 15px;
 }
 }
 
