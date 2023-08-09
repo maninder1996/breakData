@@ -1377,9 +1377,10 @@ table th {
   border: 1px solid #ef5927;
   background: transparent;
 }
-.table_top_header ul li a.active_tab {
-  background-color: transparent;
-  border-color: #ef5927;
+.table_category.cesta_compar .table_top_header ul li a:hover {
+  background-color: #fff;
+  color: #1d1d1d;
+  border-color: #fff;
 }
 .art-individal_inner {
   max-width: 400px;
@@ -1401,7 +1402,7 @@ table th {
   border: 1px solid #f7f7f7;
 }
 .product_tab button {
-  background-color: #f7f7f7;
+  background-color: #efefef;
   color: #1d1d1d;
 }
 .product_tab .nav-tabs button.active {
@@ -1478,6 +1479,27 @@ table th {
 }
 .art_individal .table .th:nth-child(2), .art_individal .table .table_body .table_row div:nth-child(2){
   text-align: left;
+}
+.product_tab .tab-content .descargar_link:hover {
+  color: #ef5927;
+}
+.descargar_link {
+  display: flex;
+  align-items: center;
+}
+.descargar_text {
+  margin:2px 0 0 10px;
+  display: inline-block;
+  line-height: 1;
+}
+.art-individal .text-left {
+  margin: 30px 0 20px;
+}
+@media(max-width:1200px){
+  .container{
+    max-width: 100%;
+    padding: 0 15px;
+  }
 }
 @media (max-width: 1024px) {
   .heading-2{
