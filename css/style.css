@@ -483,6 +483,10 @@ li.childlink .child-link .childlink.open .grand-child-link {
   top: 50%;
   transform: translateY(-50%);
   pointer-events: none;
+  transition: 0.5s;
+}
+.filer_box.filter_show_dropdown .down_arrow {
+  transform: rotate(180deg) translateY(28%);
 }
 .filter_title:after {
   position: absolute;
