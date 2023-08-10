@@ -1291,7 +1291,7 @@ table th {
   right: 0;
   top: 50%;
   transform: translateY(-50%);
-  pointer-events: none;
+  
 }
 .localización_text {
   text-align: left;
@@ -1382,13 +1382,12 @@ table th {
 .art_individal .table .th:nth-child(2) {
   flex: 1;
 }
-.localización_edit.localización_text:hover button img {
-  filter: invert(1);
-  padding: 3px;
-}
-.localización_edit.localización_text:hover button {
+
+.localización_edit.localización_text button:hover {
   border: 1px solid #ef5927;
-  background: transparent;
+  background-color: transparent;
+  padding: 3px;
+
 }
 .table_category.cesta_compar .table_top_header ul li a:hover {
   background-color: #fff;
@@ -1737,12 +1736,20 @@ li.childlink .child-link .grand-child-link {
   margin: 10px 0;
   font-size: 15px;
 }
-
+.filer_box.filter_show_dropdown:nth-child(3) .filter_drodown,.filer_box.filter_show_dropdown:nth-child(4) .filter_drodown {
+  top: 57%;
+  z-index: 1;
+}
+.filter_show_dropdown .filter_drodown {
+  top: 15%;
+  z-index: 1;
+}
 }
 @media (max-width: 767px) {
   .filter_drodown_ul .col.left {
     flex: 100% 0 0;
 }
+
   .single_pro_header .extra_price {
    
     margin-left:0px;
