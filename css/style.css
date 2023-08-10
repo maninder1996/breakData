@@ -333,11 +333,10 @@ li.childlink .child-link .childlink.open .grand-child-link {
 }
 .nav_wrap li a {
   padding: 3px 15px;
+  margin: 10px 0;
   display: inline-block;
 }
- .dropdown-submenu_wrap ul li a{
-  margin: 10px 0;
- }
+ 
 @keyframes fadeIn {
   from {
     opacity: 0;
