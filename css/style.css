@@ -1724,6 +1724,15 @@ li.childlink .child-link .grand-child-link {
 .table_total{
   margin-top: 20px;
 }
+.filer_box.filter_show_dropdown:nth-child(3) .filter_drodown,.filer_box.filter_show_dropdown:nth-child(4) .filter_drodown {
+  top: 57%;
+  z-index: 1;
+}
+.filter_show_dropdown .filter_drodown {
+  top: 15%;
+  z-index: 1;
+}
+
 
 }
 @media only screen and (max-width:1200px) and (min-width:1024px)  {
@@ -1735,14 +1744,6 @@ li.childlink .child-link .grand-child-link {
   padding: 3px 5px;
   margin: 10px 0;
   font-size: 15px;
-}
-.filer_box.filter_show_dropdown:nth-child(3) .filter_drodown,.filer_box.filter_show_dropdown:nth-child(4) .filter_drodown {
-  top: 57%;
-  z-index: 1;
-}
-.filter_show_dropdown .filter_drodown {
-  top: 15%;
-  z-index: 1;
 }
 
 
