@@ -30,6 +30,17 @@ a {
 ::-webkit-scrollbar-thumb {
   background: #888;
 }
+.bread_crump_list::-webkit-scrollbar {
+  width:4px;
+  height: 2px;
+}
+
+.bread_crump_list {
+  overflow-x: auto;
+}
+.list_breadcrump a {
+  white-space: nowrap;
+}
 ul {
   padding: 0;
   margin: 0;
@@ -1498,6 +1509,9 @@ table th {
 .art-individal .text-left {
   margin: 30px 0 20px;
 }
+.tinda_bottom_table{
+  margin-bottom:80px;
+}
 @media(max-width:1200px){
   .container{
     max-width: 100%;
@@ -1505,6 +1519,9 @@ table th {
   }
 }
 @media (max-width: 1024px) {
+  .table_top_header {
+    min-width: 1120px;
+}
   .heading-2{
     font-size: 22px;
   }
@@ -1647,6 +1664,7 @@ table th {
 }
 .single_pro_header .extra_price {
   width: 170px;
+  margin-left: 20px;
 }
 .toggle_mobile img {
   width: 20px;
@@ -1699,9 +1717,26 @@ li.childlink .child-link .grand-child-link {
   margin: 10px 0;
   font-size: 15px;
 }
+.heading {
+  font-size: 40px;
+}
+.table_responsive {
+  overflow-x: auto;
+}
+.table{
+  min-width:1120px;
+  
+}
+.table_total{
+  margin-top: 20px;
+}
+
 }
 
 @media (max-width: 767px) {
+  .category_product .btn_wrap {
+    margin:20px 0 0px;
+}
   .footer_box ul li.footer_logo img {
     width: 250px;
   }
@@ -1714,7 +1749,12 @@ li.childlink .child-link .grand-child-link {
 }
 .search_result {
   padding: 10px;
- 
+  max-height:200px;
+  overflow-y: auto;
+}
+.search_result p {
+  margin: 0 0 10px;
+  font-size: 12px;
 }
 .cerrar_buscador {
   right: 10px;
@@ -1808,7 +1848,7 @@ li.childlink .child-link .grand-child-link {
     margin: 50px 0 50px;
   }
   .hero_section {
-    padding: 50px 0 50px;
+    padding:0px 0 50px;
   }
   .copyright_text {
     text-align: center;
@@ -1839,6 +1879,57 @@ li.childlink .child-link .grand-child-link {
 }
 .single_pro_header .extra_price p {
   font-size: 12px;
+}
+.list_breadcrump li {
+  font-size: 14px;
+}
+.bread_crump {
+  margin: 5px 0 30px;
+  flex-wrap: wrap;
+}
+
+.btn_wrap .button {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+h4, h5 {
+  font-size: 17px;
+}
+.product_wrap .col-sm-12 {
+  margin-bottom: 10px;
+}
+.bread_crump_list {
+  overflow-x: auto;
+  margin:5px 0 15px;
+}
+.bread_crump .btn_wrap {
+  width: 100%;
+}
+.search_box {
+  z-index: 5;
+}
+.single_product .product_img {
+  border: 1px solid #f7f7f7;
+  margin: 0 0 20px;
+}
+.product_title .heading-2 {
+  margin: 0;
+}
+.product_header {
+  min-height: auto;
+}
+.pagina-banner {
+  margin:0px 0 0;
+}
+.pagina-left {
+  margin: 10px 0 30px;
+}
+.tinda_bottom_table{
+  margin-bottom:50px;
+}
+.compair_btn {
+  margin: 30px 0 50px;
 }
 
 
