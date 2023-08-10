@@ -1709,14 +1709,7 @@ li.childlink .child-link .grand-child-link {
   right: 10px;
   
 }
-.dropdown-submenu li a {
-    padding: 3px 15px;
-}
-.nav_wrap li a {
-  padding: 3px 5px;
-  margin: 10px 0;
-  font-size: 15px;
-}
+
 .heading {
   font-size: 40px;
 }
@@ -1732,8 +1725,25 @@ li.childlink .child-link .grand-child-link {
 }
 
 }
+@media only screen and (max-width:1200px) and (min-width:1024px)  {
+  .dropdown-submenu li a {
+    padding: 3px 15px;
+}
+.nav_wrap li a {
+  padding: 3px 5px;
+  margin: 10px 0;
+  font-size: 15px;
+}
 
+}
 @media (max-width: 767px) {
+  .single_pro_header .extra_price {
+   
+    margin-left:0px;
+}
+  .nav_wrap .nav > li:after {
+    top: 18px;
+}
   .category_product .btn_wrap {
     margin:20px 0 0px;
 }
