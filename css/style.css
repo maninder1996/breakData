@@ -335,6 +335,7 @@ li.childlink .child-link .childlink.open .grand-child-link {
   padding: 3px 15px;
   margin: 10px 0;
 }
+
  
 @keyframes fadeIn {
   from {
@@ -1739,6 +1740,9 @@ li.childlink .child-link .grand-child-link {
 
 }
 @media (max-width: 767px) {
+  .filter_drodown_ul .col.left {
+    flex: 100% 0 0;
+}
   .single_pro_header .extra_price {
    
     margin-left:0px;
