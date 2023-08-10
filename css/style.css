@@ -549,7 +549,7 @@ li.childlink .child-link .childlink.open .grand-child-link {
 }
 .filter_show_dropdown .filter_drodown {
   display: block;
-  top:40%;
+  top: 110%;
 }
 .filter_drodown_ul {
   color: #d1d1d1;
