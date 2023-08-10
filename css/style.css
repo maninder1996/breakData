@@ -1728,6 +1728,7 @@ li.childlink .child-link .grand-child-link {
 @media only screen and (max-width:1200px) and (min-width:1024px)  {
   .dropdown-submenu_wrap .dropdown-submenu li a {
     padding: 3px 15px;
+    
 }
 .nav_wrap li a {
   padding: 3px 5px;
