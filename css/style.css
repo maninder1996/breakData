@@ -1931,6 +1931,8 @@ h4, h5 {
 .compair_btn {
   margin: 30px 0 50px;
 }
-
+.toggle_mobile {
+  margin-right: 10px;
+}
 
 }
