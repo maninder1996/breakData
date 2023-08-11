@@ -34,7 +34,7 @@ $(document).ready(function () {
   $(".cerrar_buscador").click(function () {
     $(".search_box").slideUp();
   });
-  
+
   $(".toggle_mobile").click(function () {
     $(".navigation_wrap").addClass("show_sidebar");
   });
@@ -89,31 +89,31 @@ $(document).ready(function () {
     $(".leer_mas_data").toggleClass("show-more-height");
   });
 
-/**********table hide show***** */
-$(".conteos_plus").click(function () {
-  let $elem = $(this);
-  $target = $(this).parent().parent().parent().find(".conteos_table");
-  $elem.toggleClass("active");
-  $target.toggle();
-  $(".conteos_plus").not($elem).removeClass("active");
-  $(".conteos_table").not($target).hide();
-});
-$(".desglose_plus").click(function () {
-  let $elem = $(this);
-  $target = $(this).parent().parent().parent().find(".desglose_table");
-  $elem.toggleClass("active");
-  $target.toggle();
-  $(".desglose_plus").not($elem).removeClass("active");
-  $(".desglose_table").not($target).hide();
-});
-$(".conteos_sub_plus").click(function () {
-  let $elem = $(this);
-  $target = $(this).parent().parent().parent().find(".conteos_sub_table");
-  $elem.toggleClass("active");
-  $target.toggle();
-  $(".conteos_sub_plus").not($elem).removeClass("active");
-  $(".conteos_sub_table").not($target).hide();
-});
+  /**********table hide show***** */
+  $(".conteos_plus").click(function () {
+    let $elem = $(this);
+    $target = $(this).parent().parent().parent().find(".conteos_table");
+    $elem.toggleClass("active");
+    $target.toggle();
+    $(".conteos_plus").not($elem).removeClass("active");
+    $(".conteos_table").not($target).hide();
+  });
+  $(".desglose_plus").click(function () {
+    let $elem = $(this);
+    $target = $(this).parent().parent().parent().find(".desglose_table");
+    $elem.toggleClass("active");
+    $target.toggle();
+    $(".desglose_plus").not($elem).removeClass("active");
+    $(".desglose_table").not($target).hide();
+  });
+  $(".conteos_sub_plus").click(function () {
+    let $elem = $(this);
+    $target = $(this).parent().parent().parent().find(".conteos_sub_table");
+    $elem.toggleClass("active");
+    $target.toggle();
+    $(".conteos_sub_plus").not($elem).removeClass("active");
+    $(".conteos_sub_table").not($target).hide();
+  });
 
 
 });
