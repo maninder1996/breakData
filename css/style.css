@@ -1295,7 +1295,12 @@ table th {
   right: 0;
   top: 50%;
   transform: translateY(-50%);
-  
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.cesta_compar .table .localización_text .plus_icon_button img{
+  width: 20px;
 }
 .localización_text {
   text-align: left;
@@ -1753,6 +1758,9 @@ li.childlink .child-link .grand-child-link {
 
 }
 @media (max-width: 767px) {
+  .footer h4,.footer .contact_title{
+    margin: 30px 0 15px;
+  }
   .filter_drodown_ul .col.left {
     flex: 100% 0 0;
 }
