@@ -354,6 +354,9 @@ li.childlink .child-link .childlink.open .grand-child-link {
 .user_icon {
   width: 17px;
 }
+.confirm {
+  margin: 16px 0 0;
+}
 .btn_wrap .button {
   background-color: #ef5927;
   border: none;
@@ -982,9 +985,11 @@ li.childlink .child-link .childlink.open .grand-child-link {
   margin: 40px 0 0;
 }
 .list_breadcrump a:hover,
-.category_product .heading-2 a:hover,
 .footer_box a:hover {
   color: #ef5927;
+}
+.category_product .heading-2 a:hover{
+  color: #1d1d1d;
 }
 .category_product .heading-2 a {
   color: #fff;
@@ -1520,6 +1525,80 @@ table th {
 }
 .tinda_bottom_table {
   margin-bottom: 80px;
+ 
+}
+
+.tiends_werap .phone_img {
+  max-width:80px;
+  margin-right: 10px;
+}
+.form_wrap .form-group {
+  margin-bottom: 15px;
+}
+.form_wrap label {
+  font-weight: 500;
+}
+.tiends_werap {
+  display: inline-flex;
+  align-items: flex-start;
+  margin-bottom:20px;
+}
+.modal-header {
+  background-color: #eee;
+  text-align: center;
+  justify-content: center;
+  border-color: #eee;
+}
+.modal-footer .btn_wrap .button {
+  border-radius: 0;
+  line-height: 1;
+  padding: 12px 15px;
+  height: 40px;
+}
+.modal-footer {
+  justify-content: center;
+}
+.form-check .form-check-input {
+  margin-top: 0px;
+}
+.tell_btn {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+}
+.registro_wrap {
+  margin: 80px 0;
+}
+.registro_form {
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+}
+.registro_form .modal-header {
+  padding: 15px;
+  border-bottom: 1px solid #dee2e6;
+}
+.registro_form .form_wrap {
+  padding: 50px;
+}
+.registro_form .form_wrap form {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -5px;
+}
+.registro_form .form_wrap form .col-sm-12 {
+  padding: 0 10px;
+}
+.form-check a {
+  text-decoration: underline;
+}
+.modificar_zona .modal-body {
+  padding-right: 0;
+}
+.modificar_zona .filter_drodown_ul input {
+  width: 12px;
+}
+.modificar_zona .filter_drodown_ul label, .modificar_zona .filter_drodown_ul li {
+  font-size: 14px;
 }
 @media (max-width: 1200px) {
   .container {
@@ -1528,6 +1607,17 @@ table th {
   }
 }
 @media (max-width: 1024px) {
+  .registro_form .form_wrap {
+    padding: 15px;
+}
+.registro_form .form_wrap form .col-sm-12 {
+  padding: 0 5px;
+}
+.registro_form .form_wrap form {
+  margin: 0 0px;
+ 
+}
+
   .table_top_header {
     min-width: 1120px;
   }
@@ -1751,6 +1841,20 @@ table th {
   }
 }
 @media (max-width: 767px) {
+  .registro_wrap {
+    margin: 0px 0 50px;
+}
+.registro_form .form_wrap form .col-sm-12 {
+  width: 100%;
+}
+.registro_form {
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+  .tiends_werap .phone_img {
+    max-width: 60px;
+  }
   .footer h4,
   .footer .contact_title {
     margin: 30px 0 15px;

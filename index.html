@@ -23,12 +23,13 @@
         <div class="top_header">
           <ul class="nav">
             <li>
-              <a href="#"
-                ><img src="images/telefono.png" alt="" />Te llamamos gratis</a
-              >
+              <button type="button" class="tell_btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <img src="images/telefono.png" alt="" /> Te llamamos gratis
+              </button>
+               
             </li>
             <li>
-              <a href="#"
+              <a href="/registro.html"
                 ><img src="images/user_icon.svg" class="user_icon" alt="" />Mi
                 cuenta - Salir</a
               >
@@ -2158,6 +2159,11 @@
                     </li>
                   </div>
                 </ul>
+                <div class="confirm">
+                  <div class="btn_wrap">
+                    <button class="button" type="button">Confirm</button>
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -2187,52 +2193,156 @@
               <div class="filter_drodown">
                 <ul class="category filter_drodown_ul">
                   <div class="col left">
-                    <li>Agricultura y Ganaderia</li>
-                    <li>Alimentacion</li>
-                    <li>Animales</li>
-                    <li>Arte y cultura</li>
-                    <li>Audiovisuales</li>
-
-                    <li>Automoción</li>
-                    <li>Belleza y Estética</li>
-                    <li>Comercio Internacional</li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Agricultura y Ganaderia</label>
+                    </li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Alimentacion</label>
+                    </li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Animales</label>
+                    </li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Arte y cultura</label>
+                    </li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Audiovisuales</label>
+                    </li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Automoción</label>
+                    </li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Belleza y Estética</label>
+                    </li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Comercio Internacional</label>
+                    </li>
+                    
                   </div>
                   <div class="col left">
-                    <li>Comercios</li>
-                    <li>Construcción</li>
-                    <li>Deportes</li>
-                    <li>Educación</li>
-
-                    <li>Empresas de Transportes</li>
-                    <li>Hogar</li>
-                    <li>Hosteleria</li>
-                    <li>Ingenieria</li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Comercios</label>
+                    </li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Construcción</label>
+                    </li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Deportes</label>
+                    </li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Educación</label>
+                    </li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Empresas de Transportes</label>
+                    </li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Hogar</label>
+                    </li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Hosteleria</label>
+                    </li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Ingenieria</label>
+                    </li>
+                    
                   </div>
                   <div class="col left">
-                    <li>Inmobiliario</li>
-                    <li></li>
-                    <li>Joyerías</li>
-                    <li>Moda</li>
-                    <li>Muebles</li>
-                    <li>Ocio</li>
-                    <li>Organismos Públicos</li>
-                    <li>Organizaciones sin ánimo de lucro</li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Inmobiliario</label>
+                    </li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Joyerías</label>
+                    </li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Moda</label>
+                    </li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Muebles</label>
+                    </li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Ocio</label>
+                    </li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Organismos Públicos</label>
+                    </li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Organizaciones sin ánimo de lucro</label>
+                    </li>                    
                   </div>
                   <div class="col left">
-                    <li>Profesionales</li>
-                    <li>Publicidad</li>
-                    <li>Salud</li>
-                    <li>Sector financiero</li>
-                    <li>Seguridad</li>
-                    <li>Servicios</li>
-                    <li>Servicios industriales</li>
-                    <li>Telecomunicaciones</li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Profesionales</label>
+                    </li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Publicidad</label>
+                    </li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Salud</label>
+                    </li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Sector financiero</label>
+                    </li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Seguridad</label>
+                    </li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Servicios</label>
+                    </li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Servicios industriales</label>
+                    </li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Telecomunicaciones</label>
+                    </li>
                   </div>
                   <div class="col left">
-                    <li>Tercera Edad</li>
-                    <li>Turismo</li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Tercera Edad</label>
+                    </li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Turismo</label>
+                    </li>
+                    
                   </div>
                 </ul>
+                <div class="confirm">
+                  <div class="btn_wrap">
+                    <button class="button" type="button">Confirm</button>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="filer_box">
@@ -2291,18 +2401,53 @@
               <div class="filter_drodown">
                 <ul class="filter_drodown_ul extrs">
                   <div class="col left">
-                    <li>Select1</li>
-                    <li>Select2</li>
-                    <li>Select3</li>
-                    <li>Select4</li>
-                    <li>Select5</li>
-                    <li>Select6</li>
-                    <li>Select7</li>
-                    <li>Select8</li>
-                    <li>Select9</li>
-                    <li>Select10</li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Select1</label>
+                    </li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Select2</label>
+                    </li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Select3</label>
+                    </li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Select4</label>
+                    </li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Select5</label>
+                    </li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Select6</label>
+                    </li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Select7</label>
+                    </li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Select8</label>
+                    </li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Select9</label>
+                    </li>
+                    <li class="checkbox">
+                      <input type="checkbox" class="check-comunidad-autonoma"/>
+                      <label for="ca1" class="label-comunidad-autonoma">Select10</label>
+                    </li>                    
                   </div>
                 </ul>
+                <div class="confirm">
+                  <div class="btn_wrap">
+                    <button class="button" type="button">Confirm</button>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="btn_wrap filter_btn">
@@ -2315,7 +2460,7 @@
         </div>
       </div>
     </section>
-    <section class="hero_section">
+    <section class="hero_section  ">
       <div class="container">
         <div class="content">
           <h1 class="heading">
@@ -2950,7 +3095,7 @@
                   <a href="/art-individal.html">Ocio</a>
                 </li>
                 <li>
-                  <a href="#">Imagen y sonido</a>
+                  <a href="/personalizadas_1.html">Imagen y sonido</a>
                 </li>
                 <li>
                   <a href="#">Construcción</a>
@@ -3022,6 +3167,53 @@
         </div>
       </div>
     </footer>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Te llamamos gratis</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="tiends_werap">
+            <img class="phone_img" src="./images/phone_icon.png" alt="img" />
+            <p>Si tienes dudas,<br>
+              ¡¡¡Te llamamos gratis!!! <br><br>
+              
+              Déjanos tu teléfono y tu nombre y en poco tiempo recibirás una llamada nuestra.</p>
+        </div>
+        <div class="form_wrap">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Nombre Completo</label>
+              <input type="email" class="form-control"   placeholder="">
+              <small  class="form-text text-muted">* Requerido.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Telefono</label>
+              <input type="password" class="form-control" placeholder="">
+              <small  class="form-text text-muted">* Requerido.</small>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Acepto el Aviso Legal <a href="#">Aviso Legal</a></label>
+            </div>
+             
+              <div class="modal-footer">
+                <div class="btn_wrap">
+                  <button type="submit" class="btn button ">Llamame</button>
+                </div>
+              </div>
+          </form>
+        </div>
+      </div>     
+    </div>
+  </div>
+</div>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="js/custome.js"></script>
   </body>
