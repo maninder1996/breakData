@@ -1600,6 +1600,9 @@ table th {
 .modificar_zona .filter_drodown_ul label, .modificar_zona .filter_drodown_ul li {
   font-size: 14px;
 }
+.registro_form .modal-footer {
+  margin-top: 20px;
+}
 @media (max-width: 1200px) {
   .container {
     max-width: 100%;
