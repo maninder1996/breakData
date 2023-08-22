@@ -542,6 +542,7 @@ li.childlink .child-link .childlink.open .grand-child-link {
   padding: 1rem;
   transition: top 0.5s;
   display: none;
+  z-index: 2;
 }
 .filter_drodown_ul.caidad,
 .filter_drodown_ul.extrs {
@@ -562,8 +563,11 @@ li.childlink .child-link .childlink.open .grand-child-link {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  max-height: 300px;
+  max-height: 350px;
   overflow-y: auto;
+}
+.modificar_zona .modal-dialog {
+  max-width: 1200px;
 }
 .comunidad-autonoma label {
   color: #1d1d1d;
@@ -1591,8 +1595,15 @@ table th {
 .form-check a {
   text-decoration: underline;
 }
+.form-check a:hover{
+  color: #ef5927;
+}
 .modificar_zona .modal-body {
   padding-right: 0;
+}
+.registro_form select {
+  appearance: auto;
+  height: 38px;
 }
 .modificar_zona .filter_drodown_ul input {
   width: 12px;
