@@ -558,7 +558,7 @@ li.childlink .child-link .childlink.open .grand-child-link {
   display: block;
   top: 110%;
   box-shadow: 0 3px 4px -1px #0000004d;
-  
+
 }
 .filter_drodown_ul {
   color: #d1d1d1;
@@ -1550,7 +1550,7 @@ table th {
   margin-bottom:20px;
 }
 .modal-header {
-  background-color: #eee;
+  background-color: #819dbb;
   text-align: center;
   justify-content: center;
   border-color: #eee;
@@ -1585,7 +1585,7 @@ table th {
 }
 .registro_form .form_wrap {
 	padding: 50px;
-	background: #f2f2f2;
+	background: #b0cded;
 }
 .registro_form .form_wrap form {
   display: flex;
