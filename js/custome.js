@@ -32,6 +32,10 @@ $(document).ready(function () {
   $('.cross_btn_filter').click(function () {
     $(this).parent().parent().removeClass('filter_show_dropdown');
   });
+  $('.confirm button').click(function () {
+    $(this).parent().parent().parent().parent().removeClass('filter_show_dropdown');
+  });
+  
   $(".cart_search_wrap .search_btn").click(function () {
     $(".search_box").slideToggle();
   });
