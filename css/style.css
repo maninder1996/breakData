@@ -1617,6 +1617,28 @@ table th {
 .registro_form .modal-footer {
   margin-top: 20px;
 }
+.cross_btn_filter {
+  position: absolute;
+  right: 0;
+  top: 0px;
+  background-color: transparent;
+  border: 1px solid #ef5927;
+  color: #ef5927;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+}
+.cross_btn_filter:hover{
+  position: absolute;
+  right: 0;
+  top: 0px;
+  background-color: #ef5927;
+  border: 1px solid #ef5927;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+}
 @media (max-width: 1200px) {
   .container {
     max-width: 100%;

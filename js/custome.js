@@ -27,7 +27,11 @@ document.addEventListener("click", function (event) {
     previousElement = null;
   }
 });
+$('.cross_btn_filter')
 $(document).ready(function () {
+  $('.cross_btn_filter').click(function () {
+    $(this).parent().parent().removeClass('filter_show_dropdown');
+  });
   $(".cart_search_wrap .search_btn").click(function () {
     $(".search_box").slideToggle();
   });
